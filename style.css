@@ -1,17 +1,40 @@
 nav#menu li{
-    font-family: 'algerian';
-    color: #fff;
+    font-family: 'HELVETICA';
+    color: #2d6bddbb;
     font-size: 20px;
     display: inline;
     margin: 20px; 
+    transition: 0.8s ease-in;
+    
+    
 }
 nav#menu ul{
     list-style: none;
     text-align: right;
 }
 header#cabecalho {
-    font-family: 'algerian';
-    color: #ffffff;
+    font-family: 'HELVETICA';
+    color: rgb(80, 75, 75);
     
     font-size: 45px;
+}
+.caixa{
+    background-color: #83abf3bb;
+}
+img#imagem{
+    width: 800px;
+}
+img#imagem2{
+    width: 60px;
+}
+body{
+    color: aquamarine;
+}
+img#embaixo{
+    float: left;
+}
+iframe#video{
+    width: 440px;
+    height: 415px;
+    align-self: auto;
 }
