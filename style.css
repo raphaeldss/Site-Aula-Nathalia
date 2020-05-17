@@ -38,3 +38,13 @@ iframe#video{
     height: 315px;
     align-self: auto;
 }
+footer{
+    color: rgb(80, 75, 75);
+}
+a{
+    text-decoration: none;
+    }
+  
+a:hover{
+    text-decoration: underline;
+    }
