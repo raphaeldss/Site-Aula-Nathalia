@@ -80,3 +80,10 @@
     .caixa {
         background-color: #808080;
     }
+    
+    h1 {
+        color: cornsilk;
+        font-family: 'Arial';
+        transition: all 5s linear;
+        text-align: center;
+    }

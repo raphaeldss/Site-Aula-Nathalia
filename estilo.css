@@ -1,12 +1,13 @@
 html#formulario,
 body#formulario {
     width: 100%;
+    background-color: #808080;
 }
 
 h1#tituloquest {
     text-align: center;
     font-size: 40px;
-    font-family: Helvetica;
+    font-family: Arial;
     text-shadow: 10px 10px 5px rgb(128, 128, 128);
     color: rgb(37, 37, 37);
 }
@@ -20,7 +21,7 @@ div#cx1 {
 
 div#cx2 {
     position: relative;
-    border: 2px outset rgb(24, 109, 16);
+    border: 2px outset rgba(89, 90, 89, 0.76);
     margin: 0 auto;
     width: 90%;
     margin-bottom: 30px;
@@ -29,13 +30,13 @@ div#cx2 {
 div.perg {
     margin-top: 20px;
     margin-right: 20px;
-    background-color: rgb(211, 208, 208);
+    background-color: rgb(145, 120, 8, 0.527);
 }
 
 div.inf1 {
     margin-top: 20px;
     margin-right: 20px;
-    background-color: rgb(211, 208, 208);
+    background-color: rgba(145, 120, 8, 0.527);
 }
 
 img#quest1 {
@@ -57,28 +58,27 @@ div#textarea {
 
 div#cabecalho {
     margin: 0 auto;
-    background-color: rgb(24, 109, 16);
-    width: 100%;
+    background-color: rgb(145, 120, 50);
+    width: 100% 8;
     height: 70px;
 }
 
 div#rodape {
     margin: 0 auto;
-    background-color: rgb(24, 109, 16);
+    background-color: rgb(145, 120, 8);
     width: 100%;
     height: 70px;
 }
 
 div#geral {
-    border: 2px solid rgb(24, 109, 16);
-    ;
+    border: 2px solid rgb(145, 120, 8);
     margin: 0 auto;
     width: 90%;
     font-family: sans-serif;
 }
 
 .botao:hover {
-    background-color: #63a867;
+    background-color: #cf5322;
 }
 
 .botao {
