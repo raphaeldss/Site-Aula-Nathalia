@@ -31,7 +31,7 @@
     }
     
     .barra {
-        background-color: #808080;
+        background-color: #ffffff79;
         height: 100%;
         width: 300px;
         position: absolute;
@@ -46,12 +46,12 @@
     }
     
     .link {
-        background-color: #494950;
+        background-color: rgb(33, 128, 134);
         padding: 20px;
         font-family: 'Arial';
         font-size: 12pt;
         transition: all 2s linear;
-        color: #f4f4f9;
+        color: #ffffff;
         border-bottom: 2px solid #222;
         opacity: 0;
         margin-top: 200px;
@@ -74,16 +74,29 @@
     header#cabecalho {
         font-family: 'ARIEL';
         color: rgb(80, 75, 75);
-        font-size: 45px;
+        font-size: 60px;
     }
     
     .caixa {
-        background-color: #808080;
+        background-color: rgb(33, 128, 134);
     }
     
     h1 {
-        color: cornsilk;
+        color: rgb(255, 255, 255);
         font-family: 'Arial';
         transition: all 5s linear;
         text-align: center;
+        font-size: 40px;
+    }
+    
+    div.texto {
+        height: 10em;
+        position: relative;
+    }
+    
+    div.texto h1 {
+        margin: 0;
+        position: absolute;
+        top: 120%;
+        left: 30%;
     }
