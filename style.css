@@ -67,11 +67,22 @@
                             position: relative;
                         }
                         
+                        div.texto2 {
+                            height: 5em;
+                            position: relative;
+                        }
+                        
                         div.texto h1 {
                             margin: 0;
                             position: absolute;
                             top: 120%;
                             left: 30%;
+                        }
+                        
+                        div.texto2 h3 {
+                            margin: 40px;
+                            left: 40%;
+                            top: 50px;
                         }
                         
                         .blocos {
