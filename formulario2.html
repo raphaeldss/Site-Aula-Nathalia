@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" tybe="text/css" href="estiloformulario.css">
+    <title>SAÚDE E BEM ESTAR</title>
+    <div class="caixa">
+        <header id="cabecalho">
+            <center><img src="img/saude.png" width="50px"> Orientação Educacional na Pandemia<img src="img/saude.png" width="50px"> </center>
+
+            <hr>
+        </header>
+    </div>
+</head>
+
+<body>
+    <nav id="menu">
+        <ul>
+            <a href="index.html">
+                <li>HOME</li>
+            </a>
+            <a href="Formulario.html">
+                <li>FORMULÁRIO</li>
+            </a>
+            <a href="galeria2.html">
+                <li>VÍDEOS PARA OS PAIS</li>
+            </a>
+            <a href="galeria.html">
+                <li>VÍDEOS PARA OS FILHOS</li>
+            </a>
+            <a href="https://www.healthmap.org/covid-19/">
+                <li>MAPA DA COVID-19</li>
+            </a>
+        </ul>
+    </nav>
+
+
+    <form name="meu_form">
+
+        <h1>Fale com um Profissional</h1>
+
+        <p class="nome">
+            <input type="text" id="nomeid" placeholder="Nome completo" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+        <p class="fone">
+            <input type="text" name="fone" id="foneid" placeholder="(xx)xx-xx-xx-xx" />
+            <label for="fone">Fone</label>
+
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+            <label for="email">Email</label>
+
+        </p>
+        <p>
+            <textarea placeholder="Tire suas dúvidas com o profissional:"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+
+    </form>
+    <div class="texto">
+
+        <h2>
+            <p>Dra ANA PAULA RIBEIRO
+                <p>PEDIATRA - INFECTOLOGISTA - PNEUMOLOGIA INFANTIL
+        </h2>
+    </div>
+
+</body>
+
+</html>
